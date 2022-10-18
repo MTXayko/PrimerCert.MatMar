@@ -1,0 +1,341 @@
+* 
+{
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    font-family: Merriweathewr; 
+} 
+
+@font-face { 
+    font-family: Merriweathewr; 
+    src: url(fonts/Merriweather-Regular.otf); 
+} 
+
+body 
+{ 
+    background-color: #f0f0e8; 
+} 
+
+header 
+{ 
+    padding: 1% 0; 
+    width: 100%; 
+    height: 10%; 
+    display: flex; 
+    justify-content: center; 
+} 
+
+section 
+{ 
+    width: 100%; 
+    height: 77vh; 
+    display: flex; 
+    justify-content: center; 
+} 
+
+footer 
+{ 
+    padding: 1%; 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+} 
+
+li label 
+{ 
+    color: #f14e31; 
+} 
+
+li 
+{ 
+    margin-bottom: 3%; 
+    cursor: pointer; 
+} 
+
+ul li 
+{ 
+    font-size: 15px; 
+    margin-left: 10%; 
+    color: #737c79; 
+} 
+
+button 
+{ 
+    width: 54%; 
+    height: 4.5vh; 
+    color: #fff; 
+    font-size: 1.7vh; 
+    border-color: #07676e; 
+    border-radius: 2px; 
+    background: linear-gradient(#1c858b, #17656a); 
+} 
+
+#search 
+{ 
+    width: 100%; 
+    height: 25px; 
+    border-radius: none; 
+    border: none; 
+} 
+
+#search::placeholder 
+{ 
+    color: #8a8482; 
+    font-size: 15px; 
+} 
+
+.container-H 
+{ 
+    width: 80%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: #9b9a95; 
+} 
+
+.container-S 
+{ 
+    width: 80%; 
+    height: 100%; 
+    display: flex; 
+    border-bottom: 1px solid #e6e6de; 
+} 
+
+.container-A 
+{ 
+    margin-right: 2%; 
+    flex: 1; 
+    font-size: 20px; 
+} 
+
+.container-A .box 
+{ 
+    padding: 7%; 
+    width: 100%; 
+    height: 11vh; 
+    font-size: 15px; 
+    background-color: #eaeae2; 
+}
+
+.container-F 
+{ 
+    width: 80%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-top: 1px solid #d8d8d1; 
+} 
+
+.main 
+{ 
+    display: flex; 
+    align-items: center; 
+    font-size: 90%; 
+} 
+
+.input-H 
+{ 
+    width: 20%; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    border: 1px solid #cdccc5; 
+} 
+
+.a  
+{ 
+    margin: 13.5% 0; 
+    width: 100%; 
+    height: 2vh; 
+    background-color: #e4e4dc49; 
+} 
+
+.box p label 
+{ 
+    color: #0488a6; 
+}
+
+.rows 
+{ 
+    padding: 1.5%; 
+    flex: 4.3; 
+    border-radius: 10px; 
+    background-color: #fcfcfa; 
+} 
+
+.row1, 
+.row2, 
+.row3 
+{ 
+    width: 100%; 
+} 
+
+.row1 
+{ 
+    margin-bottom: 1%; 
+    width: 100%; 
+    height: 44%; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+
+.row2 
+{ 
+    margin-bottom: 3%; 
+    padding: 1.5%; 
+    width: 100%; 
+    height: 25%; 
+    display: flex; 
+    background-color: #e9e8e0; 
+    color: #67676b; 
+} 
+
+.row2 h1 
+{ 
+    margin-bottom: 4%; 
+    color: #f14e31; 
+} 
+
+.row2 h3 
+{ 
+    color: #0488a6; 
+} 
+
+.row3 h1 
+{ 
+    margin-bottom: 1%; 
+    color: #f14e31; 
+} 
+
+.row3 p 
+{ 
+    margin-bottom: 1%; 
+} 
+
+.row3 ul 
+{ 
+    margin-bottom: 1%; 
+    padding-left: 2%; 
+} 
+
+.row3 li 
+{ 
+    margin: 0%; 
+    color: #f14e31; 
+    width: 23%; 
+    border: 1px solid #f1f0e9; 
+}
+
+.xob1, 
+.xob2 
+{ 
+    flex: 1; 
+} 
+
+.xob1 
+{ 
+    margin-right: 5%; 
+    color: #4e443c; 
+} 
+
+.xob1 h1 
+{ 
+    font-size: 3.5vh; 
+} 
+
+.xob1 p label 
+{ 
+    color: #0488a6; 
+} 
+
+.xob2 
+{ 
+    padding: 3.3%; 
+    color: #fff; 
+    background-image: url(img/monitor.png); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+} 
+
+.xob2 h3 
+{ 
+    font-size: 3vh; 
+} 
+
+.xob2 p 
+{ 
+    margin: 1% 0; 
+}
+
+.xob2 p label 
+{ 
+    color: #3cd1db; 
+} 
+
+.oxb  
+{ 
+    margin: 5% 0; 
+    padding: 3%; 
+    height: 40%; 
+    background-color: #e9e8e0; 
+    color: #0488a6; 
+} 
+
+.fila1, 
+.fila2 
+{ 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+} 
+
+.fila1 
+{ 
+    margin-bottom: 6%; 
+} 
+
+.mac, 
+.windows 
+{ 
+    display: flex; 
+    align-items: center; 
+    flex: 1; 
+} 
+
+.GUI, 
+.Logos 
+{ 
+    flex: 1; 
+} 
+
+.Logos h3 
+{ 
+    margin-top: 7.4%; 
+} 
+
+.text 
+{ 
+    margin-bottom: 4%; 
+} 
+
+.text p label 
+{ 
+    color: #000; 
+} 
+
+.code 
+{ 
+    display: flex; 
+    align-items: center; 
+} 
+
+.text1 label 
+{ 
+    font-size: 13px; 
+    color: #969690; 
+}
